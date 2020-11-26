@@ -4,10 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Basic CSS Example</title>
-
   <!-- Introducing the Style Tag! -->
   <!-- ========================== -->
-
   <!-- Now you can customize the look of your sites. Each rule in the style tag changes the appearance of its associated element (notice how each rule names an element from the HTML body). -->
   <style>
     /*
@@ -17,13 +15,13 @@
 		  */
     /* h1 heading tag */
     
-    h1 {
+    #header-1 {
       /* Put a 15-pixel margin at the bottom of the heading. */
       margin-bottom: 15px;
       /* Change the size of your font to 60 pixels high. */
       font-size: 60px;
       /* This will color the heading font white. */
-      color: white;
+      color: #fff;
       /* Align the text to the center of its enclosing element (e.g. div). */
       text-align: center;
       /* Underline the text. */
@@ -81,13 +79,25 @@
       /* More info here: http://www.w3schools.com/cssref/pr_list-style-position.asp */
       list-style-position: inside;
     }
+    /*  yuytiutiujkjk  */
+    .paragraph {
+      /*font-size: 20px;*/
+      color: red;
+      text-align:center;
+      font-weight: 600;
+      font-style:italic;
+    }
   </style>
 </head>
 
 <body>
-
-  <h1>Awesome Header</h1>
-  <h2>Smaller Awesome Header</h2>
+   <!--Paragraphs-->
+   <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu ex nibh. Etiam id malesuada lacus, vitae eleifend tortor. Nulla pretium vestibulum arcu vel sagittis. Pellentesque eu interdum metus. Curabitur nec semper ante. Nullam quis vulputate ligula, facilisis porttitor arcu. Sed vitae diam nibh. Donec blandit tortor leo, et ullamcorper nisi vulputate a.</p>
+   <p class="paragraph">Phasellus tristique commodo nisl, vitae maximus diam fringilla vel. Cras tristique justo ex, in placerat tortor placerat sit amet. Aenean fermentum ligula enim, vitae viverra elit finibus ut. Morbi sit amet laoreet nisl. Fusce nisi massa, ultrices in metus ac, egestas dapibus dui. Mauris dictum urna felis, sed blandit nisi mollis vitae. Morbi fringilla volutpat lacus dictum maximus. Maecenas vel purus eget diam porttitor convallis quis id mauris.</p>
+  
+  <!-- Headers-->
+  <h1 id="header-1">Awesome Header</h1>
+  <h2 >Smaller Awesome Header</h2>
   <h3>Even Smaller Header</h3>
 
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem consequatur unde aut dolores odio hic, accusamus recusandae ipsam illum enim voluptatibus obcaecati totam tempora eum quod sapiente. Corporis, quidem, culpa?</p>
