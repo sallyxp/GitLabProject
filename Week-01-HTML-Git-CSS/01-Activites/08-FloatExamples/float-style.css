@@ -1,7 +1,7 @@
 .clearfix::after {
-  content: " ";
+  /* content: " ";
   display: block;
-  clear: both;
+  clear: both; */
 }
 
 aside {
@@ -9,5 +9,8 @@ aside {
 }
 
 main {
-  float: left;
+  float: right;
+}
+footer{
+  clear: left;
 }
